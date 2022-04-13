@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -20,18 +21,11 @@ header nav .elem-1 .flati {
   font-size: 20px;
 }
 header nav .elem-1 .elem-1-para {
-  background: linear-gradient(to bottom, rgb(54, 118, 187) 0%, rgb(54, 118, 187) 100%);
-  background-position: 0 100%;
-  background-size: 4px 4px;
-  background-repeat: repeat-x;
   display: flex;
   gap: 30px;
   color: white;
 }
-header nav .elem-1 .elem-1-para:hover {
-  background-size: 4px 800px;
-}
-header nav .elem-1 .elem-1-para:hover mark {
+header nav .elem-1 .elem-1-para mark {
   background-color: rgb(54, 118, 187);
   color: white;
 }
