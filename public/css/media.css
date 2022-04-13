@@ -1,0 +1,122 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .elem-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .elem-4 .elem-4-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+  }
+  .elem-4 .elem-4-text button {
+    width: 15%;
+  }
+  .elem-4 .card {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .elem-4 .card .card-text {
+    width: 84%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .elem-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .elem-4 .elem-4-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+  }
+  .elem-4 .elem-4-text button {
+    width: 15%;
+  }
+  .elem-4 .card {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .elem-4 .card .card-1 img {
+    width: 94%;
+  }
+  .elem-4 .card .card-text {
+    width: 84%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  nav .elem-1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+  }
+  nav .elem-1 .flati {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
+  nav .elem-1 .elem-1-para {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .elem-1 .elem-1-para mark {
+    background-color: rgb(54, 118, 187);
+    color: white;
+  }
+
+  .elem-2 {
+    font-size: 15px;
+  }
+
+  .elem-3-div {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+
+  .elem-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .elem-4 .elem-4-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+  }
+  .elem-4 .elem-4-text button {
+    width: 30%;
+  }
+  .elem-4 .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .elem-4 .card .card-1 .card-text {
+    background-color: rgb(56, 72, 95);
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: center;
+    width: 80%;
+  }
+
+  .foot1 {
+    background-color: rgb(54, 118, 187);
+    color: white;
+  }
+  .foot1 .foot-elem .fab {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
